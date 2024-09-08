@@ -6,7 +6,8 @@ from PIL import Image
 # Define constants
 IMG_HEIGHT = 150
 IMG_WIDTH = 150
-# Load your trained model (ensure you have uploaded your model file)
+
+# Load trained model 
 model = tf.keras.models.load_model('dinosaur_classification_model.h5')
 # List of actual class names (dinosaur species)
 class_names = [
